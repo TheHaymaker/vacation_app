@@ -4,8 +4,7 @@ Bundler.require()
 
 ActiveRecord::Base.establish_connection(
 	:adapter => 'postgresql',
-	:database => 'vacation_app',
-	:host => 'localhost'
+	:database => 'vacation_app'
 	)
 
 
